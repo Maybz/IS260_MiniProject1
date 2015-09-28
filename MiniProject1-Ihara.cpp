@@ -13,6 +13,7 @@
       if (number == 0.1);
       {
         cout << "Your prediction is: " cout << forecast;
+        forecast = number + 1 ()
       }
     std::cout << endl;
 }
