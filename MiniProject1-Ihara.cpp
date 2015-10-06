@@ -42,7 +42,7 @@ using namespace std;
 		                cout.setf(ios::showpoint);
 		                cout.precision(2); 
 		                
-		            cout << "This your prediction with 0.2: " << total_demand_2 << endl;      
+		     cout << "This your prediction with 0.2: " << total_demand_2 << endl;      
                     prev_act_demand = actual_demand;
                     prev_forecast = pred_demand_2;
                     total_demand_2 = parameter_2 * prev_act_demand + ( 1 - parameter_2 ) * prev_forecast; 
